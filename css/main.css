@@ -1,0 +1,42 @@
+body {
+    background-image: url(../img/vivid-blurred-colorful-background_58702-2655.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh; 
+    display: flex;  
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 1fr;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+footer {
+    flex: 0 0 1fr;
+    margin-top: 30px;
+}
+
+.image {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.about-me {
+    margin: 50px;
+}

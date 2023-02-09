@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <div class="card">
+      <div class="card-body bg-primary-subtle">
+        <h1 class="card-title text-center text-primary">Олена Бехтір</h1>
+        <h3 class="card-text text-center text-primary fst-italic">Front-end developer</h3>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div>
+      <h4 class="text-primary fst-italic about-me">
+        Перші два сайти створила на конструкторі UCOZ ще у 2014 році, тривалий час займалась їх підтримкою, розвитком та наповненням, після чого всерйоз зацікавилась фронт-енд розробкою й вирішила професійно розвиватися саме в цій галузі. Під час навчання на курсах FrontEnd в DAN-IT зробила три проекти. Володію HTML5, CSS3, SCSS, JS, jQuery, Bootsrap, GULP, методологією БЕМ, Git (GitLab, GitHub), AJAX, OOP, ES6, маю досвід адаптивної верстки, верстки на основі макетів Figma.  У портфоліо представлена частина моїх робіт і проектів за останні півроку. Цей сайт-візитка виконаний із використанням Bootstrap, решту робіт можна переглянути в GitLab та GitHub
+      </h4>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Портфоліо
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container text-center">
+              <div class="row bg-warning-subtle">
+                <div class="col">
+                  <strong class="text-primary">Односторінковий сайт без адаптиву</strong><p class="fst-italic">HTML5, CSS3, JS, jQuery (карусель), плагін Masonry (останній блок з картинками)</p>
+                  <img class="image" src="./img/step1.png" alt="step1">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/step1/" role="button">Перейти</a>                   
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Односторінковий сайт з адаптивом</strong><p class="fst-italic">HTML5, JS, SCSS, GULP, командна робота GitLab, використана методологія БЕМ, медіа-запити для адаптивної верстки (адаптивна верстка first-mobile)</p>
+                  <img class="image" src="./img/step2.png" alt="step2">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/step2/" role="button">Перейти</a> 
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Односторінковий сайт з адаптивом</strong><p class="fst-italic">HTML5, JS, SCSS, GULP (збирання проекту), методологія БЕМ, медіа-запити, міксини</p>
+                  <img class="image" src="./img/hw2_html_scss.png" alt="HW2_Gulp_scss">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/hw2_html_scss/" role="button">Перейти</a> 
+                </div>
+              </div>
+
+              <div class="row bg-warning-subtle">
+                <div class="col">
+                  <strong class="text-primary">Багатосторінковий сайт</strong><p class="fst-italic">Конструктор сайтів UCOZ (створила сайт та наповнила його контентом)</p>
+                  <img class="image" src="./img/optika.png" alt="site-optika">
+                  <a class="btn btn-primary" href="https://iroptika.at.ua/" role="button">Перейти</a>  
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Багатосторінковий сайт</strong><p class="fst-italic">Конструктор сайтів UCOZ (створила сайт та наповнила його контентом)</p>
+                  <img class="image" src="./img/ukrainochka.png" alt="site-ukrainochka">
+                  <a class="btn btn-primary" href="https://ukrainochka.at.ua/" role="button">Перейти</a> 
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Проект "Медична картка"</strong><p class="fst-italic">HTML5, CSS3, JS, AJAX (методи POST, PUT, GET, DELETE, fetch-запити), OOP, ES6</p>
+                  <img class="image" src="./img/medical_card.png" alt="">
+                  <a class="btn btn-primary" href="https://gitlab.com/elena.behtir/homework_fe8/-/tree/main/My_project" role="button">Переглянути на гітлаб</a> 
+                </div>
+              </div>
+
+              <div class="row bg-warning-subtle">
+                <div class="col">
+                  <strong class="text-primary">Анімація CSS з музикою</strong>
+                  <img class="image" src="./img/animation.png" alt="animation">
+                  <a class="btn btn-primary" href=" https://olenabekhtir.github.io/animation/" role="button">Перейти</a>                   
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Слайдер на JS</strong>
+                  <img class="image" src="./img/slider_js.png" alt="slider">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/slider-js/" role="button">Перейти</a> 
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Простий калькулятор на JS</strong>
+                  <img class="image" src="./img/calculator.png" alt="calculator">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/calculator/" role="button">Перейти</a> 
+                </div>
+              </div>
+
+              <div class="row bg-warning-subtle">
+                <div class="col">
+                  <strong class="text-primary">Верстка таблиці</strong>
+                  <img class="image" src="./img/table.png" alt="table">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/table/" role="button">Перейти</a>                   
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Використання паралаксу</strong>
+                  <img class="image" src="./img/paralax.png" alt="paralax">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/paralax/" role="button">Перейти</a> 
+                </div>
+                <div class="col">
+                  <strong class="text-primary">Приклад верстки форми</strong>
+                  <img class="image" src="./img/form.png" alt="form">
+                  <a class="btn btn-primary" href="https://olenabekhtir.github.io/form/" role="button">Перейти</a> 
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Освіта
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong class="text-primary">2022-2023 роки </strong> DAN-IT. Курси Front End (HTML (5), CSS (3), JavaScript, jQuery, Culp, адаптивна верстка, SCSS, AJAX, Bootstrap, GIT, OOP, ES6-модулі) <br><strong class="text-primary">2022 рік </strong> Дистанційний курс: «Основи Web UI розробки 2022» через платформу Prometheus <br><strong class="text-primary">2018 рік </strong> "Цитрус Академія" (ROBO.HOUSE — дім роботів) - курси підвищення кваліфікації з робототехніки та програмування штучного інтелекту (програмування на Python) <br><strong class="text-primary">2012 рік </strong> "УКРСТЕНО" — курси підвищення кваліфікації "Реклама, поліграфія та веб-дизайн" (Adobe Illustrator, Adobe Photoshop, Flash Macromedia)<br><strong class="text-primary">2006 рік </strong> Захистила дисертацію та здобула науковий ступінь кандидата технічних наук за спеціальністю "Оптоелектронні системи"<br><strong class="text-primary">1994-2000 роки </strong> Навчалась в Національному технічному університеті України "Київський політехнічний інститут" за спеціальністю "Лазерна та оптоелектронна техніка". У 2000 році отримала диплом з відзнакою інженера оптика-конструктора
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Досвід роботи
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong class="text-primary">2019-2022 роки </strong> Працювала викладачем фізики та астрономії в ДНЗ "КРВПУБ" Дистанційне навчання здійснювала за допомогою власного сайту <a class="link-primary" href="https://iroptika.at.ua">https://iroptika.at.ua</a>, а також на  платформі ClassRoom, проводила онлайн-зустрічі у GoogleMeet, Zoom, розробила низку тренувальних та контрольних тестів за допомогою Google форм, ілюстративний матеріал готувала із використанням ресурсу Canva, розробила та розмістила на ресурсі https://quizizz.com такі вікторини: "Електричне поле та електричний струм", "Природа світла", "Інтерференція та дифракція світла"). Мною також були розроблені презентації та опорні конспекти (теми: оптика, квантова та ядерна фізика, астрономія), які були апробовані в навчальному закладі «Атмосферна школа» (договір № 14-12/1П від 14.12.2020)<br><strong class="text-primary">2013-2019 роки </strong> Викладала спеціальні оптичні дисципліни в Оптико-механічному коледжі Київського національного університету імені Тараса Шевченка. Викладала такі спеціальні оптичні дисципліни: "Оптичні вимірювання”, “Системи телекомунікацій та розподіл інформації", "Сучасні методи дослідження оптичних матеріалів", "Комп’ютерна обробка зображень", "Методи і засоби комп’ютерних інформаційних технологій в оптотехніці", проводила практику на ЕОМ (MS Office: Word, Excel, PowerPoint, оптичні програми)<br><strong class="text-primary">2008-2012 роки </strong> Державне підприємство “Поліграфічний комбінат "Україна" (посада: головний фахівець у інженерній службі). Працювала з різною технічною документацією, а також із договорами на закупівлю робіт та послуг, необхідних для надійної та безперебійної роботи виробничого обладнання (закупівля та обслуговування електричного та енергетичного обладнання, ремонт та модернізація існуючого поліграфічного обладнання тощо)<br><strong class="text-primary">2005–2008 роки </strong> Державний департамент з питань зв’язку та інформатизації Міністерства транспорту та зв’язку України (посада: головний спеціаліст). Брала участь у формуванні та реалізації Національної програми інформатизації України, зокрема, займалася питаннями створення інформаційно-аналітичних телекомунікаційних систем для телемедицини, впровадженням електронного цифрового підпису, виконувала супроводження договорів на виконання робіт за різними проектами інформатизації<br><strong class="text-primary">2002-2005 роки </strong> Інститут фізики напівпровідників НАН України (посада: в.о. м.н.с., аспірантка). Займалася створенням та вдосконаленням програмного забезпечення для тепловізійного пристрою в частині обробки зображень. Здійснювала розрахунки оптичного тракту тепловізійної системи з одноелементним фотоприймачем та лінійкою фотоприймачів (фотоприймач на базі КРТ) <br><strong class="text-primary">2000-2002 роки </strong> Казенне підприємство «Центральне конструкторське бюро «Арсенал» (посада: інженер-конструктор). Проектування та розрахунок оптичних систем, обробка зображень програмними засобами. Підготовка конструкторської та нормативно-технічної документації
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-center">
+
+      <div class="btn-group">
+        <a class="btn btn-success" href="https://gitlab.com/elena.behtir" role="button">мої проекти на GitLab</a>
+        <a class="btn btn-primary" href="https://github.com/OlenaBekhtir?tab=repositories" role="button">мої проекти на GitHub</a>
+      </div>
+  </main>
+      
+  <footer>
+    <div class="card-footer text-center">
+      <h6 class="text-primary bg-primary-subtle">e-mail: <a class="email" href="mailto:elena.behtir@gmail.com">elena.behtir@gmail.com</a><br>телефон/viber/telegram <a class="phone" href="tel:+38 097 223 41 61">+38(097)2234161</a></h6>
+    </div>
+  </div>
+  </footer>
+  
+</body>
+</html>
